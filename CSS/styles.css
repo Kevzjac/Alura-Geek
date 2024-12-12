@@ -1,0 +1,98 @@
+/*Encabezado*/
+.encabezado{
+    background-color: var(--color_base);
+    height: 96px;
+    width:1440px;
+}
+
+/*Sección de menú de productos*/
+.productos{
+    height: 1115px;
+    width:758px;
+}
+.productos__titulo{
+    height:24px;
+    width:578px;
+}
+.productos__cards{
+    width:628px;
+    height:971px;
+}
+
+/*Presentación de cada producto*/
+.cards{
+    width:608px;
+    height:971px;
+}
+.card__container{
+    width:180px;
+    height:258px;
+    background-color: rgba(137, 43, 226, 0.699);
+    border-radius: 7px;
+    border: 2.5px solid #1d053f;
+}
+.card__container--interno{
+    width:163px;
+    font-family: var(--fuente);
+    font-size:16px;
+}
+.card__inferior{
+    height:24px;
+}
+
+/*Botón de eliminar producto*/
+.eliminar__boton{
+    background-color: transparent;
+    padding:0;
+    cursor:pointer;
+    border:none;
+}
+.eliminar__boton img {
+    display:block;
+}
+
+/*Sección del formulario*/
+.agregar{
+    height:517px;
+    width:472px;
+}
+.campo_container{
+    height:58px;
+    width:392px;
+    background-color: aliceblue;
+    border: 2.5px solid #120325;
+    border-radius: 30px;
+    font-family: var(--fuente);
+    font-size: 16px;
+}
+.campo__escrito{
+    width:300px;
+    text-align: center;
+    
+}
+
+/*botones del fromulario*/
+.botones{
+    height:55px;
+    width:188px;
+    border-radius: 2.5px solid #120325;
+    border-radius: 15px;
+    font-family: var(--fuente);
+    font-size:20px;
+    cursor:pointer;
+}
+.botones:hover{
+    background-color: rgb(176, 175, 253);
+}
+
+/*Pie de página*/
+.pie__pagina{
+    background-color: var(--color_base);
+    height:232px;
+    width: 1440px;
+    font-family: var(--fuente);
+    color:#ffffff;
+}
+
+
+

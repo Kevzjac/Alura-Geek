@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Presentación del head y accesos a archivos CSS de estilos del Front-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/flexbox.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <title>Alura Geek</title>
+</head>
+
+<body class="body">
+    <!--Estructura del encabezado-->
+    <header class="header">
+        <nav class="encabezado">
+            <a href="/" class="container__logo">
+                <img class="logo__corazones" alt="imagen de corazones" src="../Images/Hearts.png" />
+            </a>
+            <a href="/" class="container__logo">
+                <img class="logo__titulo" alt="imagen del titulo" src="../Images/AluraGeek.png" />
+            </a>
+        </nav>       
+        
+    </header>
+
+    <!--Estructura del cuerpo de la página-->
+    <main class="main">
+
+        <!--Sección que presenta los productos-->
+        <section class="productos">
+            <nav class="productos__titulo">
+                <img class="prouctos__logo" alt="imagen de mis productos" src="../Images/MIS PRODUCTOS_.png" />
+            </nav>
+
+            <!--Panel de navegación del menú de productos-->
+            <nav class="productos__cards">
+               <ul class="cards" alt="lista de productos" data-lista></ul>
+            </nav>
+
+        </section>
+
+        <!--Sección del formulario para agrgar nuevos productos-->
+        <section class="agregar">
+
+            <!--Título del formulario-->
+            <nav class="agregar__titulo">
+                <img class="agregar__logo" alt="imagen de agregar" src="../Images/AGREGAR PRODUCTO_.png" />
+            </nav>
+
+            <!--Campos a diligenciar en el formulario-->
+            <form class="agregar__campos" id="formulario" data-formulario>
+
+                <!--Campo de nombre-->
+                <div class="campo_container">
+                    <label class="campo__etiqueta" for="nombre">Nombre del producto</label>
+                    <input name="nombre" class="campo__escrito" required
+                        placeholder="Escribe el nombre del producto" id='nombre' data-nombre />
+                </div>
+
+                <!--Campo de precio-->
+                <div class="campo_container">
+                    <label class="campo__etiqueta" for="precio">Precio del producto</label>
+                    <input name="precio" class="campo__escrito" required
+                        placeholder="Escribe el precio del producto" id='precio' data-precio />
+                </div>
+
+                <!--Campo de url de la imagen-->
+                <div class="campo_container">
+                    <label class="campo__etiqueta" for="imagen">Imagen del producto</label>
+                    <input name="imagen" class="campo__escrito" required
+                        placeholder="Escribe la URL de la imagen del producto" id='imagen' data-imagen />
+                </div>
+
+                <!--Presentación de botones para enviar y limpiar el formulario-->
+                <nav class="agregar__botones">
+                    <button class="botones" type="submit">Enviar</button>
+                    <button class="botones" type="button" id="borrar">Limpiar</button>
+                </nav>
+            </form>            
+        </section>
+    </main>
+
+    <!--Estructura del pieg de página-->
+    <footer>
+        <section class="pie__pagina">
+            <div class="imagenes">
+                <a href="/" class="container__logo">
+                    <img class="logo__corazones" alt="imagen de corazones" src="../Images/Hearts.png" />
+                </a>
+                <a href="/" class="container__logo">
+                    <img class="logo__titulo" alt="imagen del titulo" src="../Images/AluraGeek.png" />
+                </a>
+            </div>
+            <div class="texto">
+                <h2 class="autor">DESARROLLADO POR KEVIN J. ZÚÑIGA</h2>
+                <h3 class="centro">ALURA LATAM 2024</h3>
+            </div>
+        </section>
+    </footer>
+
+    <!--Accesos a archivos de Javascript-->
+    <script src="../JS/mostrar.js" type="module"></script>
+    <script src="../JS/crear.js" type="module"></script>
+</body>
+</html>

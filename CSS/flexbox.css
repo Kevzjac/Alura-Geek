@@ -1,0 +1,103 @@
+/*Encabezado*/
+.encabezado{
+    display:flex;
+    gap:10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;         
+}
+
+/*Main*/
+.main{
+    padding:50px 70px 50px 70px;
+    display:flex;
+    gap:70px;
+}
+
+/*Sección de menú de productos*/
+.productos{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+.productos__titulo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cards de presentación de cada producto*/
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    gap:10px;
+    list-style-type: none;
+    align-content: flex-start;
+    overflow:scroll;
+}
+.card__container--interno{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 5px 5px 10px;
+}
+.card__inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Sección del formulario*/
+.agregar__campos{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.agregar__titulo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.campo_container{
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+    flex-direction: column;
+}
+.agregar__botones{
+    display:flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.campo__etiqueta{
+    line-height: 1.5;
+    padding: 0 0 .1em 1em;
+   
+}
+.campo__escrito{
+    border:none;
+    outline:none;
+    background: none;
+}
+
+/*Pie de página*/
+.pie__pagina{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 64px 0;
+    justify-content: space-between;
+}
+.texto{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

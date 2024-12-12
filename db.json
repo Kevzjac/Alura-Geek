@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "id": "a305",
+      "nombre": "Box type white",
+      "precio": "250",
+      "imagen": "../Images/unsplash.png"
+    },
+    {
+      "id": "5884",
+      "nombre": "Game Boy",
+      "precio": "350",
+      "imagen": "../Images/image 2.png"
+    },
+    {
+      "id": "167f",
+      "nombre": "Smartwatch",
+      "precio": "500",
+      "imagen": "../Images/watch (1).png"
+    },
+    {
+      "id": "189b",
+      "nombre": "Desk Kinetic",
+      "precio": "450",
+      "imagen": "../Images/desk (1).png"
+    }
+  ]
+}

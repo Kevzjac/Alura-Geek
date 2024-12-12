@@ -1,0 +1,44 @@
+/*Comportamiento de la página para resolución entre 431px y 768px*/
+@media (min-width:431px) and (max-width:768px) {
+    .main{
+        display:flex;
+        flex-direction:column-reverse;
+        width:auto;
+        align-items: center;
+    }
+    .encabezado{
+        width:auto;
+    }
+    .pie__pagina{
+        width:auto;
+    }
+}
+
+/*Comportamiento de la página para resolución de Smartphone*/
+@media(max-width:430px){
+    .encabezado,
+    .pie__pagina{
+        width:100%;
+    }
+    .main{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        }
+    .cards{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width:430px;
+    }
+    .productos__cards{
+        display:flex;
+        justify-content: center;
+    }
+    .texto{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+}
